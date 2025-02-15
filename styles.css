@@ -1,0 +1,68 @@
+/* /* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #7d4a68;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    background: #f1ede8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #7d4a68;
+    color: white;
+    margin-top: 20px;
+}
+ .container.my-5{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.container.my-5:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+.container.my-4{
+    background-color: #f1ede8;
+}
+
+.container.my-4{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.container.my-4:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
